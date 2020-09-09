@@ -163,7 +163,7 @@
             this.Controls.Add(this.txtTest1);
             this.Controls.Add(this.label1);
             this.Name = "frmTestAverage";
-            this.Text = "jeschmitt1730ex1e: Test Average";
+            this.Text = "jeschmitt1730ex1e: Average Test Scores";
             this.ResumeLayout(false);
             this.PerformLayout();
 
