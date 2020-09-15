@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmitt1730ex1d1", "jschmi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmitt1730ex1e", "jschmitt1730ex1e\jschmitt1730ex1e.csproj", "{16D076EE-4294-4284-95C3-132CF084CECD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmitt1730ex1f", "jschmitt1730ex1f\jschmitt1730ex1f.csproj", "{810ADFF4-54AD-4060-B30E-88BE7B7000C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{16D076EE-4294-4284-95C3-132CF084CECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16D076EE-4294-4284-95C3-132CF084CECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16D076EE-4294-4284-95C3-132CF084CECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{810ADFF4-54AD-4060-B30E-88BE7B7000C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810ADFF4-54AD-4060-B30E-88BE7B7000C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810ADFF4-54AD-4060-B30E-88BE7B7000C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810ADFF4-54AD-4060-B30E-88BE7B7000C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
