@@ -27,9 +27,13 @@ namespace jschmitt1730ex1f
             txtCurrency.Focus();
 
             lblCurrency.Text = btnCanada.Text + ": ";
+            groupBox1.Left = 20;
+
+            txtCurrency.ReadOnly = btnReset.TabStop;
 
             txtExchangeRate.Text = "0.76";
-
+            lblCurrency.Text = txtCurrency.Text + txtExchangeRate.Text;
+            groupBox1.Text = Convert.ToInt32("3" + "4").ToString();
         }
 
         private void btnCanada_Click(object sender, EventArgs e)

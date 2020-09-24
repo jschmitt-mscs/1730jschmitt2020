@@ -51,6 +51,7 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.lblSummary = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.picSouthAfricaDark)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picScotlandDark)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picIcelandDark)).BeginInit();
@@ -310,11 +311,21 @@
             this.lblSummary.Size = new System.Drawing.Size(140, 80);
             this.lblSummary.TabIndex = 22;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(398, 211);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(200, 100);
+            this.groupBox1.TabIndex = 23;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+            // 
             // frmCurrency
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(642, 445);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblSummary);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnExit);
@@ -379,6 +390,7 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Label lblSummary;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 
