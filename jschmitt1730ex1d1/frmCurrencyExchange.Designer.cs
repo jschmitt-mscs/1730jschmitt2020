@@ -74,6 +74,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
@@ -83,6 +84,7 @@
             this.label1.Size = new System.Drawing.Size(87, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Canadian Dollars";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -92,6 +94,7 @@
             this.label2.Size = new System.Drawing.Size(81, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Icelandic Krona";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox2
             // 
@@ -102,6 +105,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // label3
             // 
@@ -111,6 +115,7 @@
             this.label3.Size = new System.Drawing.Size(103, 13);
             this.label3.TabIndex = 5;
             this.label3.Text = "Great British Pounds";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // pictureBox3
             // 
@@ -121,6 +126,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // label4
             // 
@@ -130,6 +136,7 @@
             this.label4.Size = new System.Drawing.Size(100, 13);
             this.label4.TabIndex = 7;
             this.label4.Text = "South African Rand";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // pictureBox4
             // 
@@ -140,6 +147,7 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 6;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // label5
             // 
@@ -149,6 +157,7 @@
             this.label5.Size = new System.Drawing.Size(57, 13);
             this.label5.TabIndex = 9;
             this.label5.Text = "US Dollars";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // pictureBox5
             // 
@@ -159,6 +168,7 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 8;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // txtAmountCAD
             // 
@@ -208,6 +218,7 @@
             this.label6.Size = new System.Drawing.Size(43, 13);
             this.label6.TabIndex = 15;
             this.label6.Text = "Amount";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
@@ -217,6 +228,7 @@
             this.label7.Size = new System.Drawing.Size(30, 13);
             this.label7.TabIndex = 21;
             this.label7.Text = "Rate";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // txtRateSAR
             // 
@@ -316,6 +328,7 @@
             this.txtTotalUSD.TabStop = false;
             this.txtTotalUSD.Text = "0.00";
             this.txtTotalUSD.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtTotalUSD.TextChanged += new System.EventHandler(this.txtTotalUSD_TextChanged);
             // 
             // label8
             // 
@@ -325,6 +338,7 @@
             this.label8.Size = new System.Drawing.Size(28, 13);
             this.label8.TabIndex = 27;
             this.label8.Text = "$US";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label9
             // 
@@ -334,6 +348,7 @@
             this.label9.Size = new System.Drawing.Size(13, 13);
             this.label9.TabIndex = 28;
             this.label9.Text = "+";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // btnReset
             // 
@@ -355,7 +370,7 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // Form1
+            // frmCurrencyExchange
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -389,7 +404,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Name = "frmCurrencyExchange";
             this.Text = "jschmitt1d1: Currency Exchange";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
