@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmitt1730ex2a", "jschmit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmitt1730ex2b", "jschmitt1730ex2b\jschmitt1730ex2b.csproj", "{93EB03F3-B0D6-4A54-A21B-FF83DB3FB285}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmitt1730ex2c", "jschmitt1730ex2c\jschmitt1730ex2c.csproj", "{6D27B055-FEA6-46D2-A4C2-6C5EDB324417}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{93EB03F3-B0D6-4A54-A21B-FF83DB3FB285}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93EB03F3-B0D6-4A54-A21B-FF83DB3FB285}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93EB03F3-B0D6-4A54-A21B-FF83DB3FB285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D27B055-FEA6-46D2-A4C2-6C5EDB324417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D27B055-FEA6-46D2-A4C2-6C5EDB324417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D27B055-FEA6-46D2-A4C2-6C5EDB324417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D27B055-FEA6-46D2-A4C2-6C5EDB324417}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
