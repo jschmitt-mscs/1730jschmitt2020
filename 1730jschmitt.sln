@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmitt1730ex2E", "jschmit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmitt17302EunitTests", "jschmitt17302EunitTests\jschmitt17302EunitTests.csproj", "{8A2BE036-742C-4915-9AEE-EC86F543E3C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmitt1730ex2f", "jschmitt1730ex2f\jschmitt1730ex2f.csproj", "{50348E10-98D1-43B3-8EEB-C8D838A6AC28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmitt1730ex2funitTests", "jschmitt1730ex2funitTests\jschmitt1730ex2funitTests.csproj", "{AF897762-75ED-4904-A731-4F89801C72CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{8A2BE036-742C-4915-9AEE-EC86F543E3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A2BE036-742C-4915-9AEE-EC86F543E3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A2BE036-742C-4915-9AEE-EC86F543E3C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50348E10-98D1-43B3-8EEB-C8D838A6AC28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50348E10-98D1-43B3-8EEB-C8D838A6AC28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50348E10-98D1-43B3-8EEB-C8D838A6AC28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50348E10-98D1-43B3-8EEB-C8D838A6AC28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF897762-75ED-4904-A731-4F89801C72CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF897762-75ED-4904-A731-4F89801C72CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF897762-75ED-4904-A731-4F89801C72CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF897762-75ED-4904-A731-4F89801C72CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
