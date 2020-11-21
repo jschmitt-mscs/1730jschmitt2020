@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1730jschmittex2h2.Tests", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMethodsSamp", "StringMethodsSamp\StringMethodsSamp.csproj", "{AEB1977D-F705-4A3F-BBD2-7904D118BBA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmittex3a", "jschmittex3a\jschmittex3a.csproj", "{7AAC25C0-DF1D-4C47-80E4-2F0F70427653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmittex3aTests", "jschmittex3aTests\jschmittex3aTests.csproj", "{8C02A9FE-9A01-4CCF-A4B2-B46C1A4EF886}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{AEB1977D-F705-4A3F-BBD2-7904D118BBA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEB1977D-F705-4A3F-BBD2-7904D118BBA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEB1977D-F705-4A3F-BBD2-7904D118BBA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AAC25C0-DF1D-4C47-80E4-2F0F70427653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AAC25C0-DF1D-4C47-80E4-2F0F70427653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AAC25C0-DF1D-4C47-80E4-2F0F70427653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AAC25C0-DF1D-4C47-80E4-2F0F70427653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C02A9FE-9A01-4CCF-A4B2-B46C1A4EF886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C02A9FE-9A01-4CCF-A4B2-B46C1A4EF886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C02A9FE-9A01-4CCF-A4B2-B46C1A4EF886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C02A9FE-9A01-4CCF-A4B2-B46C1A4EF886}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
