@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmitt1730ex3b1", "jschmi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmitt17303b1UnitTests", "jschmitt17303b1UnitTests\jschmitt17303b1UnitTests.csproj", "{94BE69D4-5999-4968-BDBA-304E91149B09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmitt1730ex3c", "jschmitt1730ex3c\jschmitt1730ex3c.csproj", "{AAEFD900-EB05-46CD-945E-B46FCB234FE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmitt1730ex3cUnitTests", "jschmitt1730ex3cUnitTests\jschmitt1730ex3cUnitTests.csproj", "{C9798AF5-FD80-4567-8144-392F8C239CE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +151,14 @@ Global
 		{94BE69D4-5999-4968-BDBA-304E91149B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94BE69D4-5999-4968-BDBA-304E91149B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94BE69D4-5999-4968-BDBA-304E91149B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAEFD900-EB05-46CD-945E-B46FCB234FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAEFD900-EB05-46CD-945E-B46FCB234FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAEFD900-EB05-46CD-945E-B46FCB234FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAEFD900-EB05-46CD-945E-B46FCB234FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9798AF5-FD80-4567-8144-392F8C239CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9798AF5-FD80-4567-8144-392F8C239CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9798AF5-FD80-4567-8144-392F8C239CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9798AF5-FD80-4567-8144-392F8C239CE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
