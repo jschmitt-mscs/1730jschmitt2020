@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmitt1730ex3c", "jschmit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmitt1730ex3cUnitTests", "jschmitt1730ex3cUnitTests\jschmitt1730ex3cUnitTests.csproj", "{C9798AF5-FD80-4567-8144-392F8C239CE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmittex3d", "jschmittex3d\jschmittex3d.csproj", "{532CF3B2-8A40-4C3F-BE8F-01274F8E009E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jschmittex3dUnitTests", "jschmittex3dUnitTests\jschmittex3dUnitTests.csproj", "{E7F1A9B2-1289-4CC1-A689-C4ABD6B79C01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +163,14 @@ Global
 		{C9798AF5-FD80-4567-8144-392F8C239CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9798AF5-FD80-4567-8144-392F8C239CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9798AF5-FD80-4567-8144-392F8C239CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{532CF3B2-8A40-4C3F-BE8F-01274F8E009E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532CF3B2-8A40-4C3F-BE8F-01274F8E009E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532CF3B2-8A40-4C3F-BE8F-01274F8E009E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532CF3B2-8A40-4C3F-BE8F-01274F8E009E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F1A9B2-1289-4CC1-A689-C4ABD6B79C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F1A9B2-1289-4CC1-A689-C4ABD6B79C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F1A9B2-1289-4CC1-A689-C4ABD6B79C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F1A9B2-1289-4CC1-A689-C4ABD6B79C01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
